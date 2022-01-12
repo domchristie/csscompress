@@ -1,0 +1,16 @@
+{
+  "name": "cssmin",
+  "version": "1.0.0",
+  "description": "Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cssmin`. To experiment with that code, run `bin/console` for an interactive prompt.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
