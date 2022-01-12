@@ -2,11 +2,13 @@ PATH
   remote: .
   specs:
     cssmin (0.1.0)
+      execjs (~> 2.8)
 
 GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    execjs (2.8.1)
     minitest (5.15.0)
     parallel (1.21.0)
     parser (3.1.0.0)
