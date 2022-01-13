@@ -25,6 +25,14 @@ require "csscompress"
 minified_css_string = Csscompress.minify("/path/to/css/file")
 ```
 
+### Rails with Sprockets / Asset Pipeline
+
+In `config/environments/production.rb` and `config/environments/test.rb`:
+
+```rb
+config.assets.css_compressor = :csscompress
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/domchristie/csscompress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/domchristie/csscompress/blob/main/CODE_OF_CONDUCT.md).
