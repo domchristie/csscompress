@@ -2,7 +2,7 @@ compressor = ->(input) {
   Tempfile.create([input[:name], ".css"]) do |file|
     file << input[:data]
     file.close
-    {data: Cssmin.minify(file.path)}
+    {data: Csscompress.minify(file.path)}
   end
 }
 
@@ -13,5 +13,5 @@ rescue LoadError
 end
 
 if defined?(Sprockets)
-  Sprockets.register_compressor "text/css", :cssmin, compressor
+  Sprockets.register_compressor "text/css", :csscompress, compressor
 end

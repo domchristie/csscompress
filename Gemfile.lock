@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cssmin (0.1.0)
+    csscompress (0.1.0)
       execjs (~> 2.8)
 
 GEM
@@ -42,7 +42,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  cssmin!
+  csscompress!
   minitest (~> 5.0)
   rake (~> 13.0)
   standard (~> 1.3)

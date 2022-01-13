@@ -3,7 +3,7 @@ require "execjs"
 MINIFIER_PATH = File.expand_path("../../csso/csso.js", __FILE__)
 MINIFIER_FUNCTION = "csso.minify"
 
-module Cssmin
+module Csscompress
   class Error < StandardError; end
 
   def self.minify(filename)

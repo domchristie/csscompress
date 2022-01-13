@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/cssmin/version"
+require_relative "lib/csscompress/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "cssmin"
-  spec.version = Cssmin::VERSION
+  spec.name = "csscompress"
+  spec.version = Csscompress::VERSION
   spec.authors = ["Dom Christie"]
   spec.email = ["christiedom@gmail.com"]
 
   spec.summary = "CSS minification with Ruby"
   spec.description = "CSS minification with Ruby using ExecJS and Node.js' CSSO. Integrates with Sprockets when present."
-  spec.homepage = "https://github.com/domchristie/cssmin"
+  spec.homepage = "https://github.com/domchristie/csscompress"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
