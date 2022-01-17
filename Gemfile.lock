@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    csscompress (0.1.0)
+    csscompress (0.2.0)
       execjs (~> 2.8)
 
 GEM
